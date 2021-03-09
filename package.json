@@ -1,0 +1,22 @@
+{
+	"name": "merge-package2",
+	"version": "0.0.1",
+	"description": "Fork of package-merge to work with Lodash 4.",
+	"author": "soonyh <soonyh@126.com>",
+	"main": "lib/merge.js",
+	"scripts": {
+		"test": "./node_modules/.bin/_mocha -R spec test/spec"
+	},
+	"dependencies": {
+		"jju": "^1.2.0",
+		"semver": "^4.3.6",
+		"semver-set": "^0.1.1",
+		"lodash": "^4.1.0",
+        "cartesian-product": "^2.1.2",
+		"invariant": "^2.1.0"
+	},
+	"devDependencies": {
+		"mocha": "^2.2.5",
+		"chai": "^3.0.0"
+	}
+}
